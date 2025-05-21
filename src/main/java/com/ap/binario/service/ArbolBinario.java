@@ -14,9 +14,6 @@ public class ArbolBinario {
         } else if (valor > raiz.id) {
             // Va a la derecha
             raiz.der = insertar(raiz.der, valor);
-        } else {
-            // Repetitido
-            raiz.frecuencia++;
         }
         return raiz;
     }
